@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoffeeHouse</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Coffee Family Umbu</h1>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#order">Order</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="darkToggle">🌙</button>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h2>Nikmati Kopi Terbaik Setiap Hari</h2>
+        <p>Rasa premium, aroma terbaik, dan suasana nyaman.</p>
+        <p>GAADA LO GA ASIK
+        <a href="#menu" class="btn">Lihat Menu</a>
+    </div>
+</section>
+
+<section class="menu" id="menu">
+    <h2>Menu Favorit</h2>
+    <div class="menu-container">
+        <div class="card">
+            <h3>Espresso</h3>
+            <p>Rp 18.000</p>
+        </div>
+        <div class="card">
+            <h3>Cappuccino</h3>
+            <p>Rp 25.000</p>
+        </div>
+        <div class="card">
+            <h3>Latte</h3>
+            <p>Rp 28.000</p>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>Tentang Kami</h2>
+    <p>Kami menghadirkan kopi premium dengan cita rasa terbaik dari biji pilihan Nusantara.</p>
+</section>
+
+<section class="order" id="order">
+    <h2>Form Pemesanan</h2>
+    <form id="orderForm">
+        <input type="text" placeholder="Nama Anda" required>
+        <input type="email" placeholder="Email Anda" required>
+        <select required>
+            <option value="">Pilih Menu</option>
+            <option>Espresso</option>
+            <option>Cappuccino</option>
+            <option>Latte</option>
+        </select>
+        <button type="submit">Pesan Sekarang</button>
+    </form>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Kontak</h2>
+    <p>Email: coffeehouse@email.com</p>
+    <p>Telp: 0812-3456-7890</p>
+</section>
+
+<footer>
+    <p>© 2026 CoffeeHouse. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
